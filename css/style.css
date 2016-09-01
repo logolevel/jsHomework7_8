@@ -56,5 +56,6 @@ ul,li {
 	display: none;
 }
 .btn {
-	margin-left: 20px;
+	margin-top: 20px;
+	display: block;
 }
