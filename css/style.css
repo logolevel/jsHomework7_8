@@ -4,6 +4,7 @@ font-family: Verdana, Geneva, sans-serif;
 line-height: 1.5;
 font-size: 14px;        
 }
+/*tabs*/
 ul,li {
 	margin: 0;
 	padding: 0;
@@ -49,4 +50,11 @@ ul,li {
 }
 #tab-1 {
  display: block;   
+}
+/*tooltips*/
+.fieldHint {
+	display: none;
+}
+.btn {
+	margin-left: 20px;
 }
