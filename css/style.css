@@ -54,8 +54,19 @@ ul,li {
 /*tooltips*/
 .fieldHint {
 	display: none;
+    background-color: gold;
+    padding: 3px;
+    border: 1px solid #000;
 }
 .btn {
 	margin-top: 20px;
 	display: block;
+}
+.title {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 20px;
+}
+input {
+    padding: 5px;
 }

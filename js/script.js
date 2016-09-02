@@ -27,6 +27,12 @@ $(document).ready(function() {
 
 //hover
 		$('#myForm input').hover(showTool, hideTool);
+
+//btn
+		$('.btn').on('click', function(event) {
+			event.preventDefault();
+			$('.fieldHint').show();
+		});
 		
 });
 
